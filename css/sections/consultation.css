@@ -1,0 +1,103 @@
+.consultation {
+    background: #dbdbdb;
+    padding-top: 80px;
+    padding-bottom: 77px;
+}
+
+.consultation h2 {
+    font-family: 'Lato Bold';
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #040404;
+    margin-bottom: 21px;
+}
+.consultation h3 {
+    font-family: 'Lato Regular';
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #040404;
+    margin-bottom: 60px;
+}
+.consultation .consultation-form {
+    border: solid 5px white;
+    padding: 60px 60px 65px 60px;
+    box-sizing: border-box;
+    width: 77.08%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.consultation .consultation-form__name {
+    margin-bottom: 40px;
+}
+.consultation p {
+    font-family: 'Lato Regular';
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3b3b3b;
+    margin-bottom: 10px;
+}
+
+.consultation input {
+    width: 290px;
+    height: 45px;
+    border: none;
+}
+
+.consultation .btn {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.consultation .btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.consultation .btn button{
+    width: 100%;
+    font-family: 'Lato Bold';
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-radius: 25px;
+    background-color: #d91233;
+    border: none;
+    box-sizing: border-box;
+}
+
+@media (max-width: 960px) {
+    .consultation .consultation-form{
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 0 20px 0;
+        width: 100%;
+    }
+    .consultation input{
+        width: 90%;
+    }
+    
+}

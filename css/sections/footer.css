@@ -1,0 +1,36 @@
+.footer {
+    padding: 30px 0 30px 0;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.footer .logo {
+    font-family: 'Lato Regular';
+    font-size: 30px;
+    color: #5a5a5a;
+}
+
+.footer .number {}
+
+.footer .number__phone {
+    font-family: 'Lato Bold';
+    font-size: 28px;
+    font-weight: bold;
+    text-align: right;
+    color: #000000;
+}
+
+.footer .number__back-call {
+    font-family: 'Lato Bold';
+    font-size: 16px;
+    text-align: right;
+    color: #d91233;
+    text-decoration: underline;
+}
+
+

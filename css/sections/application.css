@@ -1,0 +1,170 @@
+.application {
+      background-color: #ebebeb;
+}
+
+.application .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.application h2 {
+    font-family: 'Lato Bold';
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 21px;
+}
+.application h3 {
+    font-family: 'Lato Regular';
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 60px;
+}
+.application .application__form {
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline; 
+    flex-wrap: wrap;
+    border: solid 5px white;
+    padding: 60px 60px 40px 60px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.application .application__col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.application .application__col__item {
+    margin-bottom: 20px;
+}
+
+.application p {
+    font-family: 'Lato Bold';
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.application select {
+    width: 240px;
+    padding-left: 17px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    box-sizing: border-box;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #b8b8b8;
+    border: none;
+    appearance:none;
+    background: url(../../img/select_arrow.png),url(../../img/select_stick.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: right 15px center, right 40px center;
+}
+.application textarea {
+    width: 240px;
+    height: 120px;
+    resize: none;
+    font-family: 'Lato Regular';
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    padding: 14px 17px;
+    color: #b8b8b8;
+    box-sizing: border-box;
+    border: none;
+}
+
+.application textarea::placeholder{
+    font-family: 'Lato Regular';
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #b8b8b8;
+    margin-bottom: 20px;
+}
+
+.application input {
+    width: 240px;
+    padding-left: 17px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Lato Regular';
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #b8b8b8;
+}
+
+.application input::placeholder{
+     color: #b8b8b8;
+}
+
+.application__col__item__btn{
+    margin-top: 10px;
+    background: #d91233;
+    border: none;
+    font-family: 'Lato Bold';
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    width: 240px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.application__col__item__btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#phone{
+    color: #141414;
+}
+
+#phone::placeholder{
+    color: #141414;
+}

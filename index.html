@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Кузовной ремонт</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script type="text/javascript">
+        jQuery(function($) {
+            $("#phone").mask("+7(999) 999-9999");
+        });
+
+    </script>
+    <div id="fixed"></div>
+    
+    <div class="preview">
+        <div class="container">
+            <div class="header">
+                <div class="logo">ЛОГОТИП</div>
+                <div class="number">
+                    <div class="number__phone">8 800 232 32 12</div>
+                    <div class="number__back-call"><a href="#popup__back-call">Заказать обратный звонок</a></div>
+                </div>
+            </div>
+
+            <h1>ПРОДАЖА КУЗОВНЫХ ЗАПЧАСТЕЙ</h1>
+            <h2>с заводской покраской без пробега по РФ</h2>
+
+            <div class="advantages-container">
+                <div class="advantages__item">
+                    <img src="img/preview-item1.png" alt="">
+                    <p>Доставка по РФ<br>от 3-х дней</p>
+                </div>
+
+                <div class="advantages__item">
+                    <img src="img/preview-item2.png" alt="">
+                    <p>Новое состояние<br>по цене б/у</p>
+                </div>
+
+                <div class="advantages__item">
+                    <img src="img/preview-item3.png" alt="">
+                    <p>Наличие более 500<br>различных деталей</p>
+                </div>
+            </div>
+
+            <div class="btns-container">
+                <div class="btns__item">
+                    <a href="#popup__fast" class="red-fill">Быстрая заявка</a>
+                    <p>Мы перезвоним Вам<br> для уточнения деталей.</p>
+                </div>
+                <div class="btns__item">
+                    <a href="#details">Подробная заявка</a>
+                    <p>Заполните подробную<br> заявку онлайн!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="description">
+        <div class="container">
+
+            <div class="description_item">
+                <img src="img/description_item1.png" alt="">
+                <h3>Более 1000 наименований</h3>
+                <p>Возможность заказа и подбора более чем по 2000 наименований деталей</p>
+            </div>
+
+            <div class="description_item">
+                <img src="img/description_item2.png" alt="">
+                <h3>Доставка в любой регион РФ</h3>
+                <p>Мы работаем с любой транспортной компанией и осуществляем доставку в любой регион РФ</p>
+            </div>
+
+            <div class="description_item">
+                <img src="img/description_item3.png" alt="">
+                <h3>Новое состояние деталей</h3>
+                <p>Наши детали не были в употреблении и имеют состояние новых</p>
+            </div>
+
+            <div class="description_item">
+                <img src="img/description_item4.png" alt="">
+                <h3>Европейское качество</h3>
+                <p>Все наши детали привезены из Европы, что гарантирует отличное качество.</p>
+            </div>
+
+            <div class="description_item">
+                <img src="img/description_item5.png" alt="">
+                <h3>Работаем по договору</h3>
+                <p>Все, что мы делаем - официально. Мы заключаем договор купли-продажи и предоставляем все необходимые документы</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="application">
+        <div class="container">
+            <h2 id="details">Подробная заявка</h2>
+            <h3>Заполните форму и получите максимально точную цену!</h3>
+            <div class="application__form">
+
+                <div class="application__col">
+
+                    <div class="application__col__item">
+                        <p>Марка:</p>
+                        <select name="" id="">
+                            <option value="">Выберите марку</option>
+                        </select>
+                    </div>
+
+                    <div class="application__col__item">
+                        <p>Модель:</p>
+                        <select name="" id="">
+                            <option value="">Выберите модель</option>
+                        </select>
+                    </div>
+
+                    <div class="application__col__item">
+                        <p>Год выпуска:</p>
+                        <select name="" id="">
+                            <option value="">Выберите год</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="application__col">
+                    <div class="application__col__item">
+                        <p>Необходимые детали:</p>
+                        <textarea name="" id="" cols="20" rows="5" placeholder="Введите"></textarea>
+                    </div>
+
+                    <div class="application__col__item">
+                        <p>Ваше имя:</p>
+                        <input type="text" placeholder="Введите">
+                    </div>
+                </div>
+
+                <div class="application__col">
+                    <div class="application__col__item">
+                        <p>Ваш телефон:</p>
+                        <input type="text" id="phone" name="phone" placeholder="+7 (9__) ___-__-__">
+                    </div>
+
+                    <div class="application__col__item">
+                        <p>Ваш e-mail:</p>
+                        <input type="text" placeholder="Введите">
+                    </div>
+
+                    <div class="application__col__item">
+                        <button class="application__col__item__btn" id="application__col__item__btn"><a href="#popup">Узнать цену</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="presence">
+        <div class="container">
+            <h2>Имеем в наличии детали на авто:</h2>
+            <div class="logos-container">
+                <div class="logos-container__row">
+                    <img src="img/presence_item1.png" alt="logo">
+                    <img src="img/presence_item2.png" alt="logo">
+                    <img src="img/presence_item3.png" alt="logo">
+                    <img src="img/presence_item4.png" alt="logo">
+                    <img src="img/presence_item5.png" alt="logo">
+                </div>
+
+                <div class="logos-container__row">
+                    <img src="img/presence_item6.png" alt="logo">
+                    <img src="img/presence_item7.png" alt="logo">
+                    <img src="img/presence_item8.png" alt="logo">
+                    <img src="img/presence_item9.png" alt="logo">
+                </div>
+
+                <div class="logos-container__row">
+                    <img src="img/presence_item10.png" alt="logo">
+                    <img src="img/presence_item11.png" alt="logo">
+                    <img src="img/presence_item12.png" alt="logo">
+                    <img src="img/presence_item13.png" alt="logo">
+                </div>
+            </div>
+            <h2>Вы можете посмотреть что происходит у нас!</h2>
+            <div class="camera-container">
+                <div class="camera-container__item"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="reviews">
+        <div class="container">
+            <h2>Клиенты о нас</h2>
+            <div class="reviews-container">
+
+                <div class="reviews-container__item">
+                    <div class="image"><img src="img/reviews-item-image.png" alt=""></div>
+                    <div class="text">
+                        <h4>Иван Иванович</h4>
+                        <h3>Не могу найти фару для авто</h3>
+                        <p>“ Мотордеталь в широком ассортименте по ценам от известного дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется заслуженным уважением среди покупателей, благодаря высокому сервису, скидкам, отличному качеству продукции.</p>
+                    </div>
+                </div>
+
+                <div class="reviews-container__item">
+                    <div class="image"><img src="img/reviews-item-image.png" alt=""></div>
+                    <div class="text">
+                        <h4>Иван Иванович</h4>
+                        <h3>Не могу найти фару для авто</h3>
+                        <p>“ Мотордеталь в широком ассортименте по ценам от известного дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется заслуженным уважением среди покупателей, благодаря высокому сервису, скидкам, отличному качеству продукции.</p>
+                    </div>
+                </div>
+
+                <div class="reviews-container__item">
+                    <div class="image"><img src="img/reviews-item-image.png" alt=""></div>
+                    <div class="text">
+                        <h4>Иван Иванович</h4>
+                        <h3>Не могу найти фару для авто</h3>
+                        <p>“ Мотордеталь в широком ассортименте по ценам от известного дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется заслуженным уважением среди покупателей, благодаря высокому сервису, скидкам, отличному качеству продукции.</p>
+                    </div>
+                </div>
+
+                <div class="reviews-container__item">
+                    <div class="image"><img src="img/reviews-item-image.png" alt=""></div>
+                    <div class="text">
+                        <h4>Иван Иванович</h4>
+                        <h3>Не могу найти фару для авто</h3>
+                        <p>“ Мотордеталь в широком ассортименте по ценам от известного дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется заслуженным уважением среди покупателей, благодаря высокому сервису, скидкам, отличному качеству продукции.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="consultation">
+        <div class="container">
+            <h2>Нужна консультация?</h2>
+            <h3>Заполните форму и получите максимально точную цену!</h3>
+            <div class="consultation-form">
+                <div class="consultation-form__name">
+                    <p>Ваше имя:</p>
+                    <input type="text">
+                </div>
+
+                <div class="consultation-form__name">
+                    <p>Ваше имя:</p>
+                    <input type="text">
+                </div>
+
+                <div class="btn"><button><a href="#popup">Заказать консультацию</a></button></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contacts">
+        <div class="container">
+            <div class="contacts__container">
+                <h2>Контакты</h2>
+                <h3>г. Москва, ул. Дорожная, 8, к.1</h3>
+                <h4>8 800 123 43 34</h4>
+                <a href="mailto:info@sitename.ru">info@sitename.ru</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="logo">ЛОГОТИП</div>
+            <div class="number">
+                <div class="number__phone">8 800 232 32 12</div>
+                <div class="number__back-call"><a href="#popup__back-call">Заказать обратный звонок</a></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="popup" id="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#fixed" class="popup__close"><img src="img/popu__close.png" alt="X"></a>
+                <div class="popup__title">Спасибо за вашу заявку!</div>
+                <div class="popup__text">
+                    Мы свяжемся с вами в ближайшее время
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="popup" id="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#fixed" class="popup__close"><img src="img/popu__close.png" alt="X"></a>
+                <div class="popup__title">Спасибо за вашу заявку!</div>
+                <div class="popup__text">
+                    Мы свяжемся с вами в ближайшее время
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="popup" id="popup__back-call">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#fixed" class="popup__close"><img src="img/popu__close.png" alt="X"></a>
+                <div class="popup__title">Заказ обратного звонка</div>
+                <div class="popup__text">
+                    Оставьте заявку и мы вам перезвоним
+                </div>
+                <input type="text" placeholder="Ваше имя">
+                <input type="text" placeholder="Ваше телефон">
+                <input type="text" placeholder="Ваше почта">
+                <a href="#fixed" class="popup__button">Отправить заявку</a>
+            </div>
+        </div>
+    </div>
+   
+    <div class="popup" id="popup__fast">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#fixed" class="popup__close"><img src="img/popu__close.png" alt="X"></a>
+                <div class="popup__title">Быстрая заявка</div>
+                <div class="popup__text">
+                    Оставьте заявку и мы Вам перезвним!
+                </div>
+                <input type="text" placeholder="Ваше имя">
+                <input type="text" placeholder="Ваше телефон">
+                <a href="#fixed" class="popup__button">Отправить заявку</a>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>
